@@ -4,6 +4,9 @@ import Navber from './componet/Navber/Navber';
 import Navbersec from './componet/Navber/Navbersec';
 import Herosection from './componet/Handpicked/Herosection';
 import { Groups } from './componet/Groups/Groups';
+import Addsection from './Addsection/Addsection';
+import { Wright } from './componet/Wright/Wright';
+import { Footer } from './componet/Footer/Footer';
 
 
 function App() {
@@ -13,8 +16,10 @@ function App() {
    <Header/>
    <Navbersec/>
    <Herosection/>
-   {/* Add */}
+   <Addsection/>
    <Groups/>
+   <Wright/>
+   <Footer/>
  </>
   );
 }
