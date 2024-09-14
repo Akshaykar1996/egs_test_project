@@ -1,25 +1,144 @@
-import React from 'react'
-import './Wright.css'
+import React from "react";
+import "./Wright.css";
 
 export const Wright = () => {
+  let paragraph = [
+    {
+      title: "Seychelles Travel Guides",
+      para: [
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+      ],
+    },
+    {
+      title: "Seychelles Travel Guides",
+      para: [
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+      ],
+    },
+    {
+      title: "International Honeymoon Packages",
+      para: [
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+      ],
+    },
+    {
+      title: "Seychelles Travel Guides",
+      para: [
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+        "50 Things to Do in Seychelles",
+        "Honeymoon In Seychelles Travel Guide",
+        "Seychelles in November",
+      ],
+    },
+  ];
   return (
     <>
-    <div className='wright'>
-        <div className=' Travel'>
-            <h2>Seychelles Travel Guides</h2>
-            <i className="fa-solid fa-angle-up"></i>
-        </div>
+    {
+      paragraph?.map((item)=>    <div className="wright container">
+      <div className=" Travel">
+        <h2>{item.title}</h2>
+        <i className="fa-solid fa-angle-up"></i>
+      </div>
 
-        <div className='paragraph'>
-            <span>50 Things to Do in Seychelles <soan>50 Places To Visit In Seychelles</soan><span>Honeymoon In Seychelles Travel Guide</span><span>Seychelles in November</span></span>
-            <soan>50 Places To Visit In Seychelles </soan><span> Honeymoon In Seychelles Travel Guide</span><span>Seychelles in November</span>
-            <soan>50 Places To Visit In Seychelles</soan><span>Honeymoon In Seychelles Travel Guide</span><span>Seychelles in November</span>
-            <soan>50 Places To Visit In Seychelles</soan><span>Honeymoon In Seychelles Travel Guide</span><span>Seychelles in November</span>
-            <soan>50 Places To Visit In Seychelles</soan><span>Honeymoon In Seychelles Travel Guide</span><span>Seychelles in November</span>
-        </div>
-
-    </div>
-    
+      <div className="paragraph">
+        {item.para?.map((para) => (
+          <>
+            <span>{para}</span> |{" "}
+          </>
+        ))}
+      </div>
+    </div>)
+    }
+   
     </>
-  )
-}
+  );
+};
