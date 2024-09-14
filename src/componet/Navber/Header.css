@@ -1,0 +1,15 @@
+.header{
+}
+.header h1{
+    font-weight: bold;
+    /* font-size: 40px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Experiential{
+    font-size: 14px;
+    font-weight: 700px;
+    padding-bottom: 9px;
+    width: 300px;
+    border-bottom: 2px solid #ffba0a;
+}

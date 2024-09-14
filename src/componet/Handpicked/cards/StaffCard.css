@@ -1,0 +1,143 @@
+.StaffCard {
+  height: 500px;
+  width: 350px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+/* .staff_span{
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    inset: 0px;
+} */
+.stafImg {
+    height: 500px;
+  width: 350px;
+  /* object-fit: cover; */
+  border-radius: 20px;
+
+}
+.stafText{
+    padding: 16px;
+    color: #fff;
+    margin-top: -280px;
+    font-weight: 400;
+    
+}
+.star_days{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height:21px;
+    font-weight: 600;
+}
+.HandPickedProductCard_name{
+    font-weight: 600;
+    font-size: 16px;
+    /* line-height: 1; */
+    margin-top: -10px;
+}
+.threeD{
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    position: absolute;
+    height: 35px;
+    /* background: rgb(245,245,249); */
+    background:linear-gradient(180deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,0))
+}
+
+.threeDInnercontaint{
+    display: flex;
+    gap:4rem;
+}
+.textLeft{
+    display: flex;
+    gap: 1rem;
+}
+/* .HandPickedProductCard_destinationNameDivider__WjttG{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+} */
+
+.line{
+    width: 300px;
+    position: absolute;
+    height: 2px;
+    background: linear-gradient(270deg,hsla(0,0%,100%,.05) -.13%,hsla(0,0%,88%,.05) 0,#fff 49.17%,hsla(0,0%,88%,.05));
+    margin-top: 40px;
+}
+.price{
+    display: flex;
+    font-weight: 400;
+    margin-top: 50px;
+    align-items: center;
+}
+.price > h3{
+ font-size: 18px;
+ margin-right: 10px;
+}
+.price > p{
+    text-decoration-line:line-through;
+    font-size: 15px;
+}
+.savePrice{
+    font-size: 10px;
+    margin-left: 15px;
+    background: hsla(0,0%,100%,.3);
+    padding: 5px;
+}
+.callContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.call{
+    border: 1px solid #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.callRequest{
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newImage{
+    height: 100px;
+}
+.newImage > img {
+    height: 300px ;
+    width: 350px;
+    border-radius: 20px ;
+}
+.secound_Text{
+    margin-top: 470px;
+}
+.threeDforOpen{
+    background: linear-gradient(180deg,rgba(255,186,10,.1),rgba(255,186,10,0))
+ }
+ .callX{
+    border: 1px solid #f37002 !important;
+ }
+ .callXrequest{
+    background: #f37002 !important;
+    color: #fff !important;
+    font-weight: 700;
+ }

@@ -1,0 +1,50 @@
+.navber{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo{
+    width: 170px;
+    height: 30x;
+   
+    padding-top: 5px;
+}
+
+
+.box{
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    border-radius: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search{
+    border:0px;
+}
+.box-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    gap: 10px;
+}
+.icon{
+    font-size: 80px;
+    padding-left: 30px;
+}
+
+
+.login-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
