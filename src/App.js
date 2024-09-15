@@ -7,6 +7,8 @@ import { Groups } from './componet/Groups/Groups';
 import { Wright } from './componet/Wright/Wright';
 import { Footer } from './componet/Footer/Footer';
 import Addsection from './componet/Addsection/Addsection';
+import { Card_icon } from './componet/Card_section/Card_icon';
+
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
    <Navbersec/>
    <Herosection/>
    <Addsection/>
-   <Groups/>
+   <Card_icon/>
    <Wright/>
    <Footer/>
  </>

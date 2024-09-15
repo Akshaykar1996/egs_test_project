@@ -1,0 +1,21 @@
+
+.akshay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: rgb(72, 70, 70);
+    font-size: 17px;
+    margin-left: auto;
+}
+
+.Happy {
+    font-size: 10px;
+}
