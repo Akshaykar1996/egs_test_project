@@ -19,6 +19,7 @@ function App() {
    <Navbersec/>
    <Herosection/>
    <Addsection/>
+   < Groups/>
    <Card_icon/>
    <Wright/>
    <Footer/>

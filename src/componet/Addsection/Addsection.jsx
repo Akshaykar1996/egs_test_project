@@ -20,7 +20,8 @@ const Addsection = () => {
         <div className='box4'>
           <p className='Get'>Get A Callback</p>
         </div>
-      </div>
+      </div><br></br>
+      <hr></hr>
     </div>
   )
 }

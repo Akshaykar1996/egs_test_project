@@ -46,6 +46,7 @@ export const Card_icon = () => {
     </div>
 
     </div>
+    <hr></hr>
     
     </>
   )
